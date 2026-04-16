@@ -4,14 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مشروع جافا سكريبت</title>
+    
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f4; }
-        h1 { color: #333; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #222;
+        }
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            min-height: 50px;
+        }
     </style>
 </head>
 <body>
-    <h1>صفحتي الجافا سكريبت الفارغة</h1>
-    <p>اكتب كودك في ملف script.js</p>
+    <h1>صفحة جافا سكريبت الفارغة</h1>
+    <p>اكتب كودك في ملف <strong>script.js</strong></p>
+    
+    <button onclick="sayHello()">اضغط هنا لتجربة</button>
+    
+    <div id="output"></div>
 
     <script src="script.js"></script>
 </body>
